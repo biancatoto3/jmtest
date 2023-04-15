@@ -10,8 +10,8 @@ import { generator } from "./blocks_generator";
 import { javascriptGenerator } from "blockly/javascript";
 import { toolbox } from "./toolbox";
 import "./index.css";
-import blueimg from "./images/blue.png";
-import busimg from "./images/bus.jpeg";
+import blueimg from "./assets/images/blue.png";
+import busimg from "./assets/images/bus.jpeg";
 import Interpreter from "js-interpreter";
 
 // Register the blocks and generator with Blockly
@@ -124,8 +124,8 @@ const ROWS = 3;
 const COLS = 3;
 
 function initImages() {
-    //bluedogImage.src = blueimg;
-    //busImage.src = busimg;
+    bluedogImage.src = blueimg;
+    busImage.src = busimg;
 }
 
 function initButtons() {
